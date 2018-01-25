@@ -1,0 +1,101 @@
+[
+    [
+        "E:\\Future\\DxDesktopApp\\force-app",
+        {
+            "sourcePath": "E:\\Future\\DxDesktopApp\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1516831023734,
+            "changeTime": 1516831023734,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "E:\\Future\\DxDesktopApp\\force-app\\main",
+        {
+            "sourcePath": "E:\\Future\\DxDesktopApp\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1516830100857,
+            "changeTime": 1516830100857,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "E:\\Future\\DxDesktopApp\\force-app\\main\\default",
+        {
+            "sourcePath": "E:\\Future\\DxDesktopApp\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1516830619171,
+            "changeTime": 1516830619171,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "E:\\Future\\DxDesktopApp\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "E:\\Future\\DxDesktopApp\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1516834913361,
+            "changeTime": 1516834913361,
+            "contentHash": "89bf7e99056850a291911a5c4a3deebc2a83ba74"
+        }
+    ],
+    [
+        "E:\\Future\\DxDesktopApp",
+        {
+            "sourcePath": "E:\\Future\\DxDesktopApp",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1516832665766,
+            "changeTime": 1516832665766,
+            "contentHash": "3487d98a4abcc498afe0c213c1d8909147599df2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "E:\\Future\\DxDesktopApp\\force-app\\main\\default\\classes\\demo.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "E:\\Future\\DxDesktopApp\\force-app\\main\\default\\classes\\demo.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1516834913359,
+            "changeTime": 1516834913359,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49"
+        }
+    ],
+    [
+        "E:\\Future\\DxDesktopApp\\force-app\\main\\default\\classes\\demo.cls",
+        {
+            "state": "u",
+            "sourcePath": "E:\\Future\\DxDesktopApp\\force-app\\main\\default\\classes\\demo.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 23,
+            "modifiedTime": 1516834913363,
+            "changeTime": 1516834913363,
+            "contentHash": "c648c5ddbdcc39013b103b639d1b7bbc706fe2d5"
+        }
+    ]
+]
