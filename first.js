@@ -7,6 +7,20 @@ const express = require('express');
 const socketIO = require('socket.io');
 const path = require('path');
 
+var path = require('path')
+var childProcess = require('child_process')
+var sfdxdx = require('sfdx-prebuilt')
+var binPath = sfdxdx.path
+
+var childArgs = [
+  'force',
+  '--help' 
+]
+
+childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
+  console.log('done');
+})
+
 const PORT = process.env.PORT || 3000;
 const INDEX = path.join(__dirname, 'index.html');
 const ConfigPath = path.join(__dirname, '/config/project-scratch-def.json');
