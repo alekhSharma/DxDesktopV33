@@ -1,5 +1,5 @@
 //const sfdx = require('sfdx-node');
- const sfdx = require('sfdx-node');
+// const sfdx = require('sfdx-node');
 const sfdxweb = require('sfdx');
 
 // options - all options to use for the relevant commands
@@ -20,8 +20,11 @@ const server = express()
 
 const io = socketIO(server);
 
+console.log(sfdxweb);
+console.log(sfdxweb.login());
+    sfdxweb.login();
 
-io.on('connection', function(socket) {  
+/*io.on('connection', function(socket) {  
  
    console.log('Client connected...');
  
@@ -113,3 +116,4 @@ io.on('connection', function(socket) {
 
 });
 
+*/
