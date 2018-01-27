@@ -1,6 +1,4 @@
-//const sfdx = require('sfdx-node');
-// const sfdx = require('sfdx-node');
-const sfdxweb = require('sfdx');
+const sfdx = require('sfdx-js').Client.createUsingPath('sfdx')
 
 // options - all options to use for the relevant commands
 //   (see sfdx config documentation)
@@ -20,12 +18,7 @@ const server = express()
 
 const io = socketIO(server);
 
-
-//console.log(status);
-//console.log(sfdxweb.status());
-
-
-/*io.on('connection', function(socket) {  
+io.on('connection', function(socket) {  
  
    console.log('Client connected...');
  
@@ -38,7 +31,7 @@ const io = socketIO(server);
         })
         list_of_config
           .then(function(configList){
-             // console.log(configList);
+             console.log(configList);
               io.emit('configList',configList);
           });
       }); 
@@ -47,10 +40,10 @@ const io = socketIO(server);
             TARGETUSERNAME : radioValue
           })
 
-          //.then(function(OpenDevHubResponse){
+          .then(function(OpenDevHubResponse){
             console.log('Opening Org');
-            //io.emit('OpenDevHubResponse',OpenDevHubResponse);
-          //});
+            io.emit('OpenDevHubResponse',OpenDevHubResponse);
+          });
       })
       
       socket.on('ListAllOrgs', function() {
@@ -117,4 +110,4 @@ const io = socketIO(server);
 
 });
 
-*/
+
