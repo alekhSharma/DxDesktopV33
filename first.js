@@ -22,8 +22,8 @@ const io = socketIO(server);
 io.on('connection', function(socket) {  
 
    console.log('Client connected...');
-
-     /* socket.on('CheckStatus',function(){
+/*
+      socket.on('CheckStatus',function(){
         var list_of_config = sfdx.config.get({
           json: 'defaultdevhubusername'
         })
@@ -32,7 +32,7 @@ io.on('connection', function(socket) {
              // console.log(configList);
               io.emit('configList',configList);
           });
-      }); */
+      }); 
       socket.on('OpenThisOrg', function(radioValue){
         sfdx.org.open({
             TARGETUSERNAME : radioValue
@@ -87,20 +87,20 @@ io.on('connection', function(socket) {
                 io.emit('CreateNewOrgResponse',CreateNewOrgResponse)  
               });
       });
-   
+   */
       socket.on('AuthMyOrg', function()
       {
-          sfdx.auth.webLogin().then(function() {
-          console.log('Auth done!');
+          sfdx.auth.webLogin().then(function(data) {
+          console.log(data);
           })
       });
-
+/*
       socket.on('SourcePull',function() {
        sfdx.source.pull().then(function(data) {
         console.log(data);
         console.log(' pull done!');
-   })
-
+   });
+*/
 });
 
 });
