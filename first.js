@@ -21,8 +21,8 @@ const server = express()
 const io = socketIO(server);
 
 
-console.log(status);
-console.log(sfdxweb.status());
+//console.log(status);
+//console.log(sfdxweb.status());
 
 
 /*io.on('connection', function(socket) {  
