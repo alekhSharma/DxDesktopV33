@@ -87,7 +87,7 @@ io.on('connection', function(socket) {
                 io.emit('CreateNewOrgResponse',CreateNewOrgResponse)  
               });
       });
-   */
+  
       socket.on('AuthMyOrg', function()
       {
           sfdx.auth.webLogin({
