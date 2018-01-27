@@ -22,7 +22,7 @@ const io = socketIO(server);
 io.on('connection', function(socket) {  
   console.log(sfdx.auth.webLogin());
    console.log('Client connected...');
-/*
+
       socket.on('CheckStatus',function(){
         var list_of_config = sfdx.config.get({
           json: 'defaultdevhubusername'
@@ -96,7 +96,7 @@ io.on('connection', function(socket) {
           console.log(data);
           })
       });
-/*
+
       socket.on('SourcePull',function() {
        sfdx.source.pull().then(function(data) {
         console.log(data);
@@ -104,6 +104,6 @@ io.on('connection', function(socket) {
    });
 
 });
-*/
+
 });
 
