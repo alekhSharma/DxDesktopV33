@@ -22,9 +22,6 @@ io.on('connection', function(socket) {
  
    console.log('Client connected...');
  
-     console.log(sfdxweb.login());
-     sfdxweb.login();
- 
       socket.on('CheckStatus',function(){
         var list_of_config = sfdx.config.get({
           json: 'defaultdevhubusername'
