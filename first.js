@@ -1,5 +1,6 @@
 //const sfdx = require('sfdx-node');
- const sfdx = require('sfdx-node')
+ const sfdx = require('sfdx-node');
+const sfdxweb = require('sfdx');
 
 // options - all options to use for the relevant commands
 //   (see sfdx config documentation)
@@ -19,10 +20,13 @@ const server = express()
 
 const io = socketIO(server);
 
+
 io.on('connection', function(socket) {  
   console.log(sfdx.auth());
    console.log('Client connected...');
 
+     sfdxweb.login();
+ 
       socket.on('CheckStatus',function(){
         var list_of_config = sfdx.config.get({
           json: 'defaultdevhubusername'
