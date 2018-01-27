@@ -20,7 +20,7 @@ const server = express()
 const io = socketIO(server);
 
 io.on('connection', function(socket) {  
-
+  console.log(sfdx.auth.webLogin());
    console.log('Client connected...');
 /*
       socket.on('CheckStatus',function(){
@@ -100,8 +100,8 @@ io.on('connection', function(socket) {
         console.log(data);
         console.log(' pull done!');
    });
-*/
-});
 
+});
+*/
 });
 
