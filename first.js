@@ -20,9 +20,13 @@ const server = express()
 
 const io = socketIO(server);
 
-console.log(sfdxweb);
-console.log(sfdxweb.login());
-    sfdxweb.login();
+console.log(open);
+console.log(sfdxweb.open());
+console.log(list);
+console.log(sfdxweb.list());
+console.log(status);
+console.log(sfdxweb.status());
+    sfdxweb.open();
 
 /*io.on('connection', function(socket) {  
  
