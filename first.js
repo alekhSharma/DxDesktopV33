@@ -1,5 +1,5 @@
 //const sfdx = require('sfdx-node');
- const sfdx = require('sfdx-js').Client.createUsingPath('sfdx')
+ const sfdx = require('sfdx-node')
 
 // options - all options to use for the relevant commands
 //   (see sfdx config documentation)
