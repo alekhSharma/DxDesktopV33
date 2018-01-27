@@ -10,7 +10,6 @@
     "sfdx-cli": "^6.1.17",
     "sfdx-js": "^4.1.0",
     "sfdx-node": "0.0.1",
-      "sfdx-prebuilt": "^5.9.3",
     "socket.io": "^2.0.4",
     "socket.io-client": "^2.0.4"
   },
