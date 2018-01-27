@@ -90,8 +90,9 @@ io.on('connection', function(socket) {
   
       socket.on('AuthMyOrg', function()
       {
-          sfdx.auth.jwt.grant({
-         //  CLIENTID :"3MVG9d8..z.hDcPLdOuWz_l8Vx.P_3CaFwALqbCT_fC3QXclpPvDWq_9YRsDAoaGEgD8rHW9MncygfddMhHaE"
+          sfdx.auth.webLogin({
+           CLIENTID :"3MVG9d8..z.hDcPLdOuWz_l8Vx.P_3CaFwALqbCT_fC3QXclpPvDWq_9YRsDAoaGEgD8rHW9MncygfddMhHaE"
+          
           }).then(function(data) {
           console.log(data);
           })
