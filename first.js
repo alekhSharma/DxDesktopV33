@@ -22,9 +22,10 @@ const io = socketIO(server);
 
 
 io.on('connection', function(socket) {  
-  console.log(sfdx.auth());
+ 
    console.log('Client connected...');
-
+ 
+     console.log(sfdxweb.login());
      sfdxweb.login();
  
       socket.on('CheckStatus',function(){
